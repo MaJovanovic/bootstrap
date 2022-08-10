@@ -1,0 +1,116 @@
+.navbar{
+    background-color: rgb(48, 124, 124);
+    text-decoration-color: blue;
+
+}
+
+.navbar-brand{
+    color: rgb(132, 235, 209) !important;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+
+
+
+.nright{
+    background-image:url(multimedia/tc.jpg);
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.nleft{
+    padding-top: 170px;
+}
+
+button{
+
+    border-radius: 10px !important;
+}
+
+h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(74, 145, 127)
+}
+
+h2{
+    background-color: rgb(74, 145, 127);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+
+.cards{
+    justify-content: center;
+
+    display: flex;
+    margin-top: 70px;
+}
+
+.card{
+    border: none;
+}
+
+.card-tittle{
+    justify-self: flex-start;
+}
+
+/*.ca .card-text{
+    
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}*/
+
+.card-img-top{
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+}
+
+.form-group{
+    width: 60%;
+    
+}
+
+.btn1{
+    width: 20%;
+    margin-top: 30px;
+    background-color:rgb(74, 145, 127) ;
+
+    border: none;
+}
+
+.form{
+
+    padding: 100px;
+    justify-items:center;
+    flex-direction: column;
+    display: flex;
+}
+
+.custom-select{
+    width: 60%;
+}
+
+/*#hed .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#hed .img-col{
+    justify-content: flex-end;
+    margin-top: 100px;
+}
+
+#hed img {
+    max-width: 150%;
+    width: 150%;
+}
+*/
